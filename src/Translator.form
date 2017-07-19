@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JSpinner" name="jSpinner1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="641" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="193" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                              <Component id="jComboBox1" min="-2" pref="324" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jTextField1" min="-2" pref="592" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel4" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="142" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jTextField2" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="192" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextField1" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+                  <Component id="jComboBox1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="74" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="52" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jTextField2" min="-2" pref="57" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="20" style="1"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="74">
+            <StringItem index="0" value="Select Object Language"/>
+            <StringItem index="1" value="ARABIC_JORDAN(&quot;ar-JO&quot;)"/>
+            <StringItem index="2" value="ARABIC_LEBANON(&quot;ar-LB&quot;)"/>
+            <StringItem index="3" value="ARABIC_QATAR(&quot;ar-QA&quot;)"/>
+            <StringItem index="4" value="ARABIC_UAE(&quot;ar-AE&quot;)"/>
+            <StringItem index="5" value="ARABIC_MOROCCO(&quot;ar-MA&quot;)"/>
+            <StringItem index="6" value="ARABIC_IRAQ(&quot;ar-IQ&quot;)"/>
+            <StringItem index="7" value="ARABIC_ALGERIA(&quot;ar-DZ&quot;)"/>
+            <StringItem index="8" value="ARABIC_BAHRAIN(&quot;ar-BH&quot;)"/>
+            <StringItem index="9" value="ARABIC_LYBIA(&quot;ar-LY&quot;)"/>
+            <StringItem index="10" value="ARABIC_OMAN(&quot;ar-OM&quot;),"/>
+            <StringItem index="11" value="ARABIC_SAUDI_ARABIA(&quot;ar-SA&quot;)"/>
+            <StringItem index="12" value="ARABIC_TUNISIA(&quot;ar-TN&quot;)"/>
+            <StringItem index="13" value="ARABIC_YEMEN(&quot;ar-YE&quot;)"/>
+            <StringItem index="14" value="BASQUE(&quot;eu&quot;)"/>
+            <StringItem index="15" value="CATALAN(&quot;ca&quot;)"/>
+            <StringItem index="16" value="CZECH(&quot;cs&quot;)"/>
+            <StringItem index="17" value="DUTCH(&quot;nl-NL&quot;)"/>
+            <StringItem index="18" value="ENGLISH_AUSTRALIA(&quot;en-AU&quot;)"/>
+            <StringItem index="19" value="ENGLISH_CANADA(&quot;en-CA&quot;)"/>
+            <StringItem index="20" value="ENGLISH_INDIA(&quot;en-IN&quot;)"/>
+            <StringItem index="21" value="ENGLISH_NEW_ZEALAND(&quot;en-NZ&quot;)"/>
+            <StringItem index="22" value="ENGLISH_SOUTH_AFRICA(&quot;en-ZA&quot;)"/>
+            <StringItem index="23" value="ENGLISH_UK(&quot;en-GB&quot;)"/>
+            <StringItem index="24" value="ENGLISH_US(&quot;en-US&quot;)"/>
+            <StringItem index="25" value="FINNISH(&quot;fi&quot;)"/>
+            <StringItem index="26" value="FRENCH(&quot;fr-FR&quot;)"/>
+            <StringItem index="27" value="GALICIAN(&quot;gl&quot;)"/>
+            <StringItem index="28" value="GERMAN(&quot;de-DE&quot;)"/>
+            <StringItem index="29" value="HEBREW(&quot;he&quot;)"/>
+            <StringItem index="30" value="HUNGARIAN(&quot;hu&quot;)"/>
+            <StringItem index="31" value="ICELANDIC(&quot;is&quot;)"/>
+            <StringItem index="32" value="ITALIAN(&quot;it-IT&quot;)"/>
+            <StringItem index="33" value="INDONESIAN(&quot;id&quot;)"/>
+            <StringItem index="34" value="JAPANESE(&quot;ja&quot;)"/>
+            <StringItem index="35" value="KOREAN(&quot;ko&quot;)"/>
+            <StringItem index="36" value="LATIN(&quot;la&quot;)"/>
+            <StringItem index="37" value="CHINESE_SIMPLIFIED(&quot;zh-CN&quot;)"/>
+            <StringItem index="38" value="CHINESE_TRANDITIONAL(&quot;zh-TW&quot;)"/>
+            <StringItem index="39" value="CHINESE_HONGKONG(&quot;zh-HK&quot;)"/>
+            <StringItem index="40" value="CHINESE_CANTONESE(&quot;zh-yue&quot;)"/>
+            <StringItem index="41" value="MALAYSIAN(&quot;ms-MY&quot;)"/>
+            <StringItem index="42" value="NORWEGIAN(&quot;no-NO&quot;)"/>
+            <StringItem index="43" value="POLISH(&quot;pl&quot;)"/>
+            <StringItem index="44" value="PIG_LATIN(&quot;xx-piglatin&quot;)"/>
+            <StringItem index="45" value="PORTUGUESE(&quot;pt-PT&quot;)"/>
+            <StringItem index="46" value="PORTUGUESE_BRASIL(&quot;pt-BR&quot;)"/>
+            <StringItem index="47" value="ROMANIAN(&quot;ro-RO&quot;)"/>
+            <StringItem index="48" value="RUSSIAN(&quot;ru&quot;)"/>
+            <StringItem index="49" value="SERBIAN(&quot;sr-SP&quot;)"/>
+            <StringItem index="50" value="SLOVAK(&quot;sk&quot;)"/>
+            <StringItem index="51" value="SPANISH_ARGENTINA(&quot;es-AR&quot;)"/>
+            <StringItem index="52" value="SPANISH_BOLIVIA(&quot;es-BO&quot;)"/>
+            <StringItem index="53" value="SPANISH_CHILE(&quot;es-CL&quot;)"/>
+            <StringItem index="54" value="SPANISH_COLOMBIA(&quot;es-CO&quot;)"/>
+            <StringItem index="55" value="SPANISH_COSTA_RICA(&quot;es-CR&quot;)"/>
+            <StringItem index="56" value="SPANISH_DOMINICAN_REPUBLIC(&quot;es-DO&quot;)"/>
+            <StringItem index="57" value="SPANISH_ECUADOR(&quot;es-EC&quot;)"/>
+            <StringItem index="58" value="SPANISH_EL_SALVADOR(&quot;es-SV&quot;)"/>
+            <StringItem index="59" value="SPANISH_GUATEMALA(&quot;es-GT&quot;)"/>
+            <StringItem index="60" value="SPANISH_HONDURAS(&quot;es-HN&quot;)"/>
+            <StringItem index="61" value="SPANISH_MEXICO(&quot;es-MX&quot;)"/>
+            <StringItem index="62" value="SPANISH_NICARAGUA(&quot;es-NI&quot;)"/>
+            <StringItem index="63" value="SPANISH_PANAMA(&quot;es-PA&quot;)"/>
+            <StringItem index="64" value="SPANISH_PARAGUAY(&quot;es-PY&quot;)"/>
+            <StringItem index="65" value="SPANISH_PERU(&quot;es-PE&quot;)"/>
+            <StringItem index="66" value="SPANISH_PUERTO_RICO(&quot;es-PR&quot;)"/>
+            <StringItem index="67" value="SPANISH_SPAIN(&quot;es-ES&quot;)"/>
+            <StringItem index="68" value="SPANISH_US(&quot;es-US&quot;)"/>
+            <StringItem index="69" value="SPANISH_URUGUAY(&quot;es-UY&quot;)"/>
+            <StringItem index="70" value="SPANISH_VENEZUELA(&quot;es-VE&quot;)"/>
+            <StringItem index="71" value="SWEDISH(&quot;sv-SE&quot;)"/>
+            <StringItem index="72" value="TURKISH(&quot;tr&quot;)"/>
+            <StringItem index="73" value="ZULU(&quot;zu&quot;)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="20" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Object Language"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="20" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="Enter Text"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Translate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="WELCOME TO Language Translator"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="ff" green="66" red="0" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/High Volume_16px.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="20" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="Translated Text"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
